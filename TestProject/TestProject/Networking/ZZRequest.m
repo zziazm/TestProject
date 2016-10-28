@@ -19,6 +19,7 @@
     if (self = [super init]) {
         _URLString = URLString;
         _parameters = parameters;
+        _zz_responseSerializerType = YTKResponseSerializerTypeHTTP;
     }
     return self;
 }
@@ -39,4 +40,10 @@
     return _requestHeaderFieldValueDictionary;
 }
 
+- (YTKRequestMethod)requestMethod{
+    return _zz_requestMethord;
+}
+- (YTKResponseSerializerType)responseSerializerType {
+    return _zz_responseSerializerType;
+}
 @end

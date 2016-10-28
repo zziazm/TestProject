@@ -15,8 +15,7 @@ static NSString * ZZAFNetClientBaseURL = @"";
     static ZZAFNetworkClient * shareClient = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        shareClient = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:ZZAFNetClientBaseURL]];
-        
+        shareClient = [[ZZAFNetworkClient alloc] initWithBaseURL:[NSURL URLWithString:ZZAFNetClientBaseURL]];
     });
     return shareClient;
 }

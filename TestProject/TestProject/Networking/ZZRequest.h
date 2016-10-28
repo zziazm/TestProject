@@ -10,9 +10,12 @@
 
 @interface ZZRequest : YTKRequest
 @property (nonatomic, assign) NSInteger cacheTimeInSeconds;
+
 @property (nonatomic, copy) NSDictionary * requestHeaderFieldValueDictionary;
+@property (nonatomic, assign) YTKRequestMethod zz_requestMethord;
+@property (nonatomic, assign) YTKResponseSerializerType zz_responseSerializerType;
+
 - (id)initWithURL:(NSString *)URLString
        parameters:(NSDictionary *)parameters;
-
 
 @end
