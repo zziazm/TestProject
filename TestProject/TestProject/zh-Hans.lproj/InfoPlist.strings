@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  TestProject
+
+  Created by zm on 2016/10/27.
+  Copyright © 2016年 zmMac. All rights reserved.
+*/
+CFBundleDisplayName = "测试本地化";

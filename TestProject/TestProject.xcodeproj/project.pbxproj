@@ -15,6 +15,27 @@
 		986ADE6C1DC19A8A00098F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986ADE6A1DC19A8A00098F2A /* LaunchScreen.storyboard */; };
 		986ADE771DC19A8A00098F2A /* TestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADE761DC19A8A00098F2A /* TestProjectTests.m */; };
 		986ADE821DC19A8A00098F2A /* TestProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADE811DC19A8A00098F2A /* TestProjectUITests.m */; };
+		986ADE961DC1A01F00098F2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 986ADE981DC1A01F00098F2A /* InfoPlist.strings */; };
+		986ADE9C1DC1A21500098F2A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 986ADE9E1DC1A21500098F2A /* Localizable.strings */; };
+		986ADEA61DC1A62B00098F2A /* UIView+ZZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADEA51DC1A62B00098F2A /* UIView+ZZAdd.m */; };
+		986ADEF91DC1D1F100098F2A /* YTKBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADEE71DC1D1F100098F2A /* YTKBaseRequest.m */; };
+		986ADEFA1DC1D1F100098F2A /* YTKBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADEE91DC1D1F100098F2A /* YTKBatchRequest.m */; };
+		986ADEFB1DC1D1F100098F2A /* YTKBatchRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADEEB1DC1D1F100098F2A /* YTKBatchRequestAgent.m */; };
+		986ADEFC1DC1D1F100098F2A /* YTKChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADEED1DC1D1F100098F2A /* YTKChainRequest.m */; };
+		986ADEFD1DC1D1F100098F2A /* YTKChainRequestAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADEEF1DC1D1F100098F2A /* YTKChainRequestAgent.m */; };
+		986ADEFE1DC1D1F100098F2A /* YTKNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADEF21DC1D1F100098F2A /* YTKNetworkAgent.m */; };
+		986ADEFF1DC1D1F100098F2A /* YTKNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADEF41DC1D1F100098F2A /* YTKNetworkConfig.m */; };
+		986ADF001DC1D1F100098F2A /* YTKNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADEF61DC1D1F100098F2A /* YTKNetworkPrivate.m */; };
+		986ADF011DC1D1F100098F2A /* YTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADEF81DC1D1F100098F2A /* YTKRequest.m */; };
+		986ADF101DC1D9AF00098F2A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF041DC1D9AF00098F2A /* AFHTTPSessionManager.m */; };
+		986ADF111DC1D9AF00098F2A /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF071DC1D9AF00098F2A /* AFNetworkReachabilityManager.m */; };
+		986ADF121DC1D9AF00098F2A /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF091DC1D9AF00098F2A /* AFSecurityPolicy.m */; };
+		986ADF131DC1D9AF00098F2A /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF0B1DC1D9AF00098F2A /* AFURLRequestSerialization.m */; };
+		986ADF141DC1D9AF00098F2A /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF0D1DC1D9AF00098F2A /* AFURLResponseSerialization.m */; };
+		986ADF151DC1D9AF00098F2A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF0F1DC1D9AF00098F2A /* AFURLSessionManager.m */; };
+		986ADF191DC1DA8B00098F2A /* ZZYTKNetClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF181DC1DA8B00098F2A /* ZZYTKNetClient.m */; };
+		986ADF1C1DC1DED600098F2A /* ZZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF1B1DC1DED600098F2A /* ZZRequest.m */; };
+		986ADF2C1DC1F9DE00098F2A /* ZZAFNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF2B1DC1F9DE00098F2A /* ZZAFNetworkClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +72,53 @@
 		986ADE7D1DC19A8A00098F2A /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		986ADE811DC19A8A00098F2A /* TestProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProjectUITests.m; sourceTree = "<group>"; };
 		986ADE831DC19A8A00098F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		986ADE8F1DC19BB200098F2A /* TestProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProject.pch; sourceTree = "<group>"; };
+		986ADE921DC19E7200098F2A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		986ADE931DC19E7200098F2A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		986ADE971DC1A01F00098F2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		986ADE991DC1A04100098F2A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		986ADE9D1DC1A21500098F2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		986ADE9F1DC1A21700098F2A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		986ADEA41DC1A62B00098F2A /* UIView+ZZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZZAdd.h"; sourceTree = "<group>"; };
+		986ADEA51DC1A62B00098F2A /* UIView+ZZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZZAdd.m"; sourceTree = "<group>"; };
+		986ADEE61DC1D1F100098F2A /* YTKBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBaseRequest.h; sourceTree = "<group>"; };
+		986ADEE71DC1D1F100098F2A /* YTKBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBaseRequest.m; sourceTree = "<group>"; };
+		986ADEE81DC1D1F100098F2A /* YTKBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequest.h; sourceTree = "<group>"; };
+		986ADEE91DC1D1F100098F2A /* YTKBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequest.m; sourceTree = "<group>"; };
+		986ADEEA1DC1D1F100098F2A /* YTKBatchRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKBatchRequestAgent.h; sourceTree = "<group>"; };
+		986ADEEB1DC1D1F100098F2A /* YTKBatchRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKBatchRequestAgent.m; sourceTree = "<group>"; };
+		986ADEEC1DC1D1F100098F2A /* YTKChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequest.h; sourceTree = "<group>"; };
+		986ADEED1DC1D1F100098F2A /* YTKChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequest.m; sourceTree = "<group>"; };
+		986ADEEE1DC1D1F100098F2A /* YTKChainRequestAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKChainRequestAgent.h; sourceTree = "<group>"; };
+		986ADEEF1DC1D1F100098F2A /* YTKChainRequestAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKChainRequestAgent.m; sourceTree = "<group>"; };
+		986ADEF01DC1D1F100098F2A /* YTKNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetwork.h; sourceTree = "<group>"; };
+		986ADEF11DC1D1F100098F2A /* YTKNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkAgent.h; sourceTree = "<group>"; };
+		986ADEF21DC1D1F100098F2A /* YTKNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkAgent.m; sourceTree = "<group>"; };
+		986ADEF31DC1D1F100098F2A /* YTKNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkConfig.h; sourceTree = "<group>"; };
+		986ADEF41DC1D1F100098F2A /* YTKNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkConfig.m; sourceTree = "<group>"; };
+		986ADEF51DC1D1F100098F2A /* YTKNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkPrivate.h; sourceTree = "<group>"; };
+		986ADEF61DC1D1F100098F2A /* YTKNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkPrivate.m; sourceTree = "<group>"; };
+		986ADEF71DC1D1F100098F2A /* YTKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKRequest.h; sourceTree = "<group>"; };
+		986ADEF81DC1D1F100098F2A /* YTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKRequest.m; sourceTree = "<group>"; };
+		986ADF031DC1D9AF00098F2A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		986ADF041DC1D9AF00098F2A /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		986ADF051DC1D9AF00098F2A /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		986ADF061DC1D9AF00098F2A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		986ADF071DC1D9AF00098F2A /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		986ADF081DC1D9AF00098F2A /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		986ADF091DC1D9AF00098F2A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		986ADF0A1DC1D9AF00098F2A /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		986ADF0B1DC1D9AF00098F2A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		986ADF0C1DC1D9AF00098F2A /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		986ADF0D1DC1D9AF00098F2A /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		986ADF0E1DC1D9AF00098F2A /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		986ADF0F1DC1D9AF00098F2A /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		986ADF171DC1DA8B00098F2A /* ZZYTKNetClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZYTKNetClient.h; sourceTree = "<group>"; };
+		986ADF181DC1DA8B00098F2A /* ZZYTKNetClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZYTKNetClient.m; sourceTree = "<group>"; };
+		986ADF1A1DC1DED600098F2A /* ZZRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRequest.h; sourceTree = "<group>"; };
+		986ADF1B1DC1DED600098F2A /* ZZRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRequest.m; sourceTree = "<group>"; };
+		986ADF2A1DC1F9DE00098F2A /* ZZAFNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAFNetworkClient.h; sourceTree = "<group>"; };
+		986ADF2B1DC1F9DE00098F2A /* ZZAFNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZAFNetworkClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +169,9 @@
 		986ADE5B1DC19A8A00098F2A /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				986ADF161DC1DA3A00098F2A /* Networking */,
+				986ADEAA1DC1B12400098F2A /* Vender */,
+				986ADEA31DC1A61C00098F2A /* Category */,
 				986ADE5F1DC19A8A00098F2A /* AppDelegate.h */,
 				986ADE601DC19A8A00098F2A /* AppDelegate.m */,
 				986ADE621DC19A8A00098F2A /* ViewController.h */,
@@ -117,7 +188,10 @@
 		986ADE5C1DC19A8A00098F2A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				986ADE8F1DC19BB200098F2A /* TestProject.pch */,
 				986ADE5D1DC19A8A00098F2A /* main.m */,
+				986ADE981DC1A01F00098F2A /* InfoPlist.strings */,
+				986ADE9E1DC1A21500098F2A /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +212,83 @@
 				986ADE831DC19A8A00098F2A /* Info.plist */,
 			);
 			path = TestProjectUITests;
+			sourceTree = "<group>";
+		};
+		986ADEA31DC1A61C00098F2A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				986ADEA41DC1A62B00098F2A /* UIView+ZZAdd.h */,
+				986ADEA51DC1A62B00098F2A /* UIView+ZZAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		986ADEAA1DC1B12400098F2A /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				986ADF021DC1D9AF00098F2A /* AFNetworking */,
+				986ADEE51DC1D1F100098F2A /* YTKNetwork */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		986ADEE51DC1D1F100098F2A /* YTKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				986ADEE61DC1D1F100098F2A /* YTKBaseRequest.h */,
+				986ADEE71DC1D1F100098F2A /* YTKBaseRequest.m */,
+				986ADEE81DC1D1F100098F2A /* YTKBatchRequest.h */,
+				986ADEE91DC1D1F100098F2A /* YTKBatchRequest.m */,
+				986ADEEA1DC1D1F100098F2A /* YTKBatchRequestAgent.h */,
+				986ADEEB1DC1D1F100098F2A /* YTKBatchRequestAgent.m */,
+				986ADEEC1DC1D1F100098F2A /* YTKChainRequest.h */,
+				986ADEED1DC1D1F100098F2A /* YTKChainRequest.m */,
+				986ADEEE1DC1D1F100098F2A /* YTKChainRequestAgent.h */,
+				986ADEEF1DC1D1F100098F2A /* YTKChainRequestAgent.m */,
+				986ADEF01DC1D1F100098F2A /* YTKNetwork.h */,
+				986ADEF11DC1D1F100098F2A /* YTKNetworkAgent.h */,
+				986ADEF21DC1D1F100098F2A /* YTKNetworkAgent.m */,
+				986ADEF31DC1D1F100098F2A /* YTKNetworkConfig.h */,
+				986ADEF41DC1D1F100098F2A /* YTKNetworkConfig.m */,
+				986ADEF51DC1D1F100098F2A /* YTKNetworkPrivate.h */,
+				986ADEF61DC1D1F100098F2A /* YTKNetworkPrivate.m */,
+				986ADEF71DC1D1F100098F2A /* YTKRequest.h */,
+				986ADEF81DC1D1F100098F2A /* YTKRequest.m */,
+			);
+			path = YTKNetwork;
+			sourceTree = "<group>";
+		};
+		986ADF021DC1D9AF00098F2A /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				986ADF031DC1D9AF00098F2A /* AFHTTPSessionManager.h */,
+				986ADF041DC1D9AF00098F2A /* AFHTTPSessionManager.m */,
+				986ADF051DC1D9AF00098F2A /* AFNetworking.h */,
+				986ADF061DC1D9AF00098F2A /* AFNetworkReachabilityManager.h */,
+				986ADF071DC1D9AF00098F2A /* AFNetworkReachabilityManager.m */,
+				986ADF081DC1D9AF00098F2A /* AFSecurityPolicy.h */,
+				986ADF091DC1D9AF00098F2A /* AFSecurityPolicy.m */,
+				986ADF0A1DC1D9AF00098F2A /* AFURLRequestSerialization.h */,
+				986ADF0B1DC1D9AF00098F2A /* AFURLRequestSerialization.m */,
+				986ADF0C1DC1D9AF00098F2A /* AFURLResponseSerialization.h */,
+				986ADF0D1DC1D9AF00098F2A /* AFURLResponseSerialization.m */,
+				986ADF0E1DC1D9AF00098F2A /* AFURLSessionManager.h */,
+				986ADF0F1DC1D9AF00098F2A /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		986ADF161DC1DA3A00098F2A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				986ADF1A1DC1DED600098F2A /* ZZRequest.h */,
+				986ADF1B1DC1DED600098F2A /* ZZRequest.m */,
+				986ADF171DC1DA8B00098F2A /* ZZYTKNetClient.h */,
+				986ADF181DC1DA8B00098F2A /* ZZYTKNetClient.m */,
+				986ADF2A1DC1F9DE00098F2A /* ZZAFNetworkClient.h */,
+				986ADF2B1DC1F9DE00098F2A /* ZZAFNetworkClient.m */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +382,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 986ADE501DC19A8A00098F2A;
 			productRefGroup = 986ADE5A1DC19A8A00098F2A /* Products */;
@@ -249,7 +401,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986ADE9C1DC1A21500098F2A /* Localizable.strings in Resources */,
 				986ADE6C1DC19A8A00098F2A /* LaunchScreen.storyboard in Resources */,
+				986ADE961DC1A01F00098F2A /* InfoPlist.strings in Resources */,
 				986ADE691DC19A8A00098F2A /* Assets.xcassets in Resources */,
 				986ADE671DC19A8A00098F2A /* Main.storyboard in Resources */,
 			);
@@ -276,8 +430,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986ADF2C1DC1F9DE00098F2A /* ZZAFNetworkClient.m in Sources */,
 				986ADE641DC19A8A00098F2A /* ViewController.m in Sources */,
 				986ADE611DC19A8A00098F2A /* AppDelegate.m in Sources */,
+				986ADEFB1DC1D1F100098F2A /* YTKBatchRequestAgent.m in Sources */,
+				986ADF001DC1D1F100098F2A /* YTKNetworkPrivate.m in Sources */,
+				986ADEFF1DC1D1F100098F2A /* YTKNetworkConfig.m in Sources */,
+				986ADF101DC1D9AF00098F2A /* AFHTTPSessionManager.m in Sources */,
+				986ADEA61DC1A62B00098F2A /* UIView+ZZAdd.m in Sources */,
+				986ADF111DC1D9AF00098F2A /* AFNetworkReachabilityManager.m in Sources */,
+				986ADEFE1DC1D1F100098F2A /* YTKNetworkAgent.m in Sources */,
+				986ADF011DC1D1F100098F2A /* YTKRequest.m in Sources */,
+				986ADF191DC1DA8B00098F2A /* ZZYTKNetClient.m in Sources */,
+				986ADF151DC1D9AF00098F2A /* AFURLSessionManager.m in Sources */,
+				986ADF141DC1D9AF00098F2A /* AFURLResponseSerialization.m in Sources */,
+				986ADEFD1DC1D1F100098F2A /* YTKChainRequestAgent.m in Sources */,
+				986ADEFC1DC1D1F100098F2A /* YTKChainRequest.m in Sources */,
+				986ADF131DC1D9AF00098F2A /* AFURLRequestSerialization.m in Sources */,
+				986ADF121DC1D9AF00098F2A /* AFSecurityPolicy.m in Sources */,
+				986ADEFA1DC1D1F100098F2A /* YTKBatchRequest.m in Sources */,
+				986ADEF91DC1D1F100098F2A /* YTKBaseRequest.m in Sources */,
+				986ADF1C1DC1DED600098F2A /* ZZRequest.m in Sources */,
 				986ADE5E1DC19A8A00098F2A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +491,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				986ADE661DC19A8A00098F2A /* Base */,
+				986ADE921DC19E7200098F2A /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -326,8 +500,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				986ADE6B1DC19A8A00098F2A /* Base */,
+				986ADE931DC19E7200098F2A /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		986ADE981DC1A01F00098F2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				986ADE971DC1A01F00098F2A /* en */,
+				986ADE991DC1A04100098F2A /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		986ADE9E1DC1A21500098F2A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				986ADE9D1DC1A21500098F2A /* en */,
+				986ADE9F1DC1A21700098F2A /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -337,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -385,6 +579,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -428,6 +623,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4QQ73282F5;
+				GCC_PREFIX_HEADER = /Users/olympusimac/clone/TestProject/TestProject/TestProject/TestProject.pch;
 				INFOPLIST_FILE = TestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pwccn.TestProject;
@@ -440,6 +636,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4QQ73282F5;
+				GCC_PREFIX_HEADER = /Users/olympusimac/clone/TestProject/TestProject/TestProject/TestProject.pch;
 				INFOPLIST_FILE = TestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pwccn.TestProject;
