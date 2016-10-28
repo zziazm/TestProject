@@ -34,7 +34,7 @@
 		986ADF141DC1D9AF00098F2A /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF0D1DC1D9AF00098F2A /* AFURLResponseSerialization.m */; };
 		986ADF151DC1D9AF00098F2A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF0F1DC1D9AF00098F2A /* AFURLSessionManager.m */; };
 		986ADF191DC1DA8B00098F2A /* ZZYTKNetClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF181DC1DA8B00098F2A /* ZZYTKNetClient.m */; };
-		986ADF1C1DC1DED600098F2A /* ZZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF1B1DC1DED600098F2A /* ZZRequest.m */; };
+		986ADF1C1DC1DED600098F2A /* ZZYTKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF1B1DC1DED600098F2A /* ZZYTKRequest.m */; };
 		986ADF2C1DC1F9DE00098F2A /* ZZAFNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADF2B1DC1F9DE00098F2A /* ZZAFNetworkClient.m */; };
 /* End PBXBuildFile section */
 
@@ -115,8 +115,8 @@
 		986ADF0F1DC1D9AF00098F2A /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		986ADF171DC1DA8B00098F2A /* ZZYTKNetClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZYTKNetClient.h; sourceTree = "<group>"; };
 		986ADF181DC1DA8B00098F2A /* ZZYTKNetClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZYTKNetClient.m; sourceTree = "<group>"; };
-		986ADF1A1DC1DED600098F2A /* ZZRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRequest.h; sourceTree = "<group>"; };
-		986ADF1B1DC1DED600098F2A /* ZZRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRequest.m; sourceTree = "<group>"; };
+		986ADF1A1DC1DED600098F2A /* ZZYTKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZYTKRequest.h; sourceTree = "<group>"; };
+		986ADF1B1DC1DED600098F2A /* ZZYTKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZYTKRequest.m; sourceTree = "<group>"; };
 		986ADF2A1DC1F9DE00098F2A /* ZZAFNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZAFNetworkClient.h; sourceTree = "<group>"; };
 		986ADF2B1DC1F9DE00098F2A /* ZZAFNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZAFNetworkClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -281,8 +281,8 @@
 		986ADF161DC1DA3A00098F2A /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				986ADF1A1DC1DED600098F2A /* ZZRequest.h */,
-				986ADF1B1DC1DED600098F2A /* ZZRequest.m */,
+				986ADF1A1DC1DED600098F2A /* ZZYTKRequest.h */,
+				986ADF1B1DC1DED600098F2A /* ZZYTKRequest.m */,
 				986ADF171DC1DA8B00098F2A /* ZZYTKNetClient.h */,
 				986ADF181DC1DA8B00098F2A /* ZZYTKNetClient.m */,
 				986ADF2A1DC1F9DE00098F2A /* ZZAFNetworkClient.h */,
@@ -450,7 +450,7 @@
 				986ADF121DC1D9AF00098F2A /* AFSecurityPolicy.m in Sources */,
 				986ADEFA1DC1D1F100098F2A /* YTKBatchRequest.m in Sources */,
 				986ADEF91DC1D1F100098F2A /* YTKBaseRequest.m in Sources */,
-				986ADF1C1DC1DED600098F2A /* ZZRequest.m in Sources */,
+				986ADF1C1DC1DED600098F2A /* ZZYTKRequest.m in Sources */,
 				986ADE5E1DC19A8A00098F2A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -713,6 +713,7 @@
 				986ADE881DC19A8A00098F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		986ADE891DC19A8A00098F2A /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -721,6 +722,7 @@
 				986ADE8B1DC19A8A00098F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		986ADE8C1DC19A8A00098F2A /* Build configuration list for PBXNativeTarget "TestProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +731,7 @@
 				986ADE8E1DC19A8A00098F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

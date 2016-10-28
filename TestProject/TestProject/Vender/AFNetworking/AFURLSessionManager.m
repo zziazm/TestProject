@@ -259,7 +259,7 @@ didCompleteWithError:(NSError *)error
 
     __block NSMutableDictionary *userInfo = [NSMutableDictionary dictionary];
     userInfo[AFNetworkingTaskDidCompleteResponseSerializerKey] = manager.responseSerializer;
-
+    NSLog(@"%@", manager.responseSerializer);
     //Performance Improvement from #2672
     NSData *data = nil;
     if (self.mutableData) {

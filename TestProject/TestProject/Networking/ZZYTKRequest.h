@@ -8,7 +8,7 @@
 
 #import "YTKRequest.h"
 
-@interface ZZRequest : YTKRequest
+@interface ZZYTKRequest : YTKRequest
 @property (nonatomic, assign) NSInteger cacheTimeInSeconds;
 
 @property (nonatomic, copy) NSDictionary * requestHeaderFieldValueDictionary;

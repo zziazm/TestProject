@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ZZAFNetworkClient.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString * s = @"mainPageQuanNew?FansNo=-1&UserType=1";
+
+    [[ZZAFNetworkClient shareClient] GET:@"mainPageQuanNew" paremeters:@{@"FansNo":@"-1", @"UserType":@"1"} completionHandle:^(id responseObject, NSError *error) {
+        NSLog(@"%@", responseObject);
+    }];
+    [[ZZAFNetworkClient shareClient] GET1:@"mainPageQuanNew" paremeters:@{@"FansNo":@"-1", @"UserType":@"1"} completionHandle:^(id responseObject, NSError *error) {
+        NSLog(@"%@", responseObject);
+    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

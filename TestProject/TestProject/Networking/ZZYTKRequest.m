@@ -6,14 +6,14 @@
 //  Copyright © 2016年 zmMac. All rights reserved.
 //
 
-#import "ZZRequest.h"
+#import "ZZYTKRequest.h"
 
-@interface ZZRequest()
+@interface ZZYTKRequest()
 @property (nonatomic, copy) NSString * URLString;
 @property (nonatomic, copy) NSDictionary * parameters;
 @end
 
-@implementation ZZRequest
+@implementation ZZYTKRequest
 
 - (id)initWithURL:(NSString *)URLString parameters:(NSDictionary *)parameters{
     if (self = [super init]) {
