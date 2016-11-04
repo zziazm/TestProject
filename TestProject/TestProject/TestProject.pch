@@ -8,7 +8,8 @@
 
 #ifndef TestProject_pch
 #define TestProject_pch
-#import "AFNetworking.h"    
+#import "AFNetworking.h"   
+#import "ZZMacro.h"
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 

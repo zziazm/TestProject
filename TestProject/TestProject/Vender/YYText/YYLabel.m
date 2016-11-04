@@ -638,6 +638,7 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
 - (void)setText:(NSString *)text {
     if (_text == text || [_text isEqualToString:text]) return;
     _text = text.copy;
+    NSLog(@"%p, %p", _text, text);
     BOOL needAddAttributes = _innerText.length == 0 && text.length > 0;
     [_innerText replaceCharactersInRange:NSMakeRange(0, _innerText.length) withString:text ? text : @""];
     [_innerText yy_removeDiscontinuousAttributesInRange:NSMakeRange(0, _innerText.length)];
@@ -1102,6 +1103,7 @@ static dispatch_queue_t YYLabelGetReleaseQueue() {
         [attachmentLayers removeAllObjects];
     };
 
+   
     task.display = ^(CGContextRef context, CGSize size, BOOL (^isCancelled)(void)) {
         if (isCancelled()) return;
         if (text.length == 0) return;
