@@ -86,7 +86,7 @@ static inline void dispatch_sync_on_main_queue(void (^block)()) {
 }
 
 
-
+static NSString * const AFAppDotNetAPIBaseURLString = @"https://";
 
 
 

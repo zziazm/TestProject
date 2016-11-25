@@ -20,6 +20,7 @@
         _URLString = URLString;
         _parameters = parameters;
         _zz_responseSerializerType = YTKResponseSerializerTypeHTTP;
+        
     }
     return self;
 }

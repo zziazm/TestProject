@@ -11,12 +11,16 @@
 #import "UIImageView+WebCache.h"
 #import "YYText.h"
 #import "UIView+ZZAdd.h"
+#import "ZZMacro.h"
+static NSString * base = @"";
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
-
+- (NSString *)appendingParameter:(NSString *)parameter{
+    return [base stringByAppendingString:parameter];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    NSString * s = @"mainPageQuanNew?FansNo=-1&UserType=1";
@@ -24,15 +28,17 @@
 //    [[ZZAFNetworkClient shareClient] GET:@"mainPageQuanNew" paremeters:@{@"FansNo":@"-1", @"UserType":@"1"} completionHandle:^(id responseObject, NSError *error) {
 //        NSLog(@"%@", responseObject);
 //    }];
+//    http://114.255.201.228:86/videoif/sendSmsCode.do?apptype=2&cpid=manggtv&userid=0EueRxEszkLJPvL1erUNmQ%3D%3D
+//    NSDictionary * duc = @{@"apptype":@2,@"cpid":@"manggtv",@"userid":@"0EueRxEszkLJPvL1erUNmQ%3D%3D"} ;
+    [[ZZAFNetworkClient shareClient] GET:@"http://dflow.titan.mgtv.com:8080/udf/paramsQuery" paremeters:nil completionHandle:^(id responseObject, NSError *error) {
+        if (error) {
+            
+        }else{
+            NSLog(@"%@", responseObject);
+        }
+    }];
+//
     
-//    [[ZZAFNetworkClient shareClient] GET:@"https://www.baidu.com" paremeters:nil completionHandle:^(id responseObject, NSError *error) {
-//        if (error) {
-//            
-//        }else{
-//            NSLog(@"%@", responseObject);
-//        }
-//    }];
-//    
     UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     [self.view addSubview:imageView];
     imageView.backgroundColor = [UIColor redColor];
@@ -58,13 +64,15 @@
     
     YYLabel * label = [[YYLabel alloc] initWithFrame:CGRectMake(100, 200, 100, 30)];
     [self.view addSubview:label];
+    
 //    label.left = 100;
 //    label.top = 200;
 //    label.height = 30;
 //    label.width = 100;
     label.text = @"fafafasfa";
-    UIView
-//    dispatch_async(dispatch_get_main_queue(), ^{
+    UIView * v;
+    CAAnimation * a;
+ //    dispatch_async(dispatch_get_main_queue(), ^{
 //        NSLog(@"1111");
 //    });
 //    NSLog(@"222222");

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9802A8831DD2D4F90035FC58 /* AppDelegate+ZZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9802A8821DD2D4F90035FC58 /* AppDelegate+ZZAdd.m */; };
 		986ADE5E1DC19A8A00098F2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADE5D1DC19A8A00098F2A /* main.m */; };
 		986ADE611DC19A8A00098F2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADE601DC19A8A00098F2A /* AppDelegate.m */; };
 		986ADE641DC19A8A00098F2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 986ADE631DC19A8A00098F2A /* ViewController.m */; };
@@ -79,6 +80,9 @@
 		9891177E1DC7213A0037CA11 /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 989117631DC7213A0037CA11 /* YYTextWeakProxy.m */; };
 		9891177F1DC7213A0037CA11 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 989117651DC7213A0037CA11 /* YYLabel.m */; };
 		989117801DC7213A0037CA11 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 989117681DC7213A0037CA11 /* YYTextView.m */; };
+		98E929A61DE7E14E00630CBD /* NSString+ZZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E929A51DE7E14E00630CBD /* NSString+ZZAdd.m */; };
+		98E929A91DE7E28D00630CBD /* NSData+ZZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E929A81DE7E28D00630CBD /* NSData+ZZAdd.m */; };
+		98E929AC1DE7E6A800630CBD /* NSNumber+ZZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E929AB1DE7E6A800630CBD /* NSNumber+ZZAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +103,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9802A8811DD2D4F90035FC58 /* AppDelegate+ZZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ZZAdd.h"; sourceTree = "<group>"; };
+		9802A8821DD2D4F90035FC58 /* AppDelegate+ZZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ZZAdd.m"; sourceTree = "<group>"; };
 		983CC9CA1DC9E05B00EF2734 /* ZZMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMacro.h; sourceTree = "<group>"; };
 		986ADE591DC19A8A00098F2A /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986ADE5D1DC19A8A00098F2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -251,6 +257,12 @@
 		989117661DC7213A0037CA11 /* YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYText.h; sourceTree = "<group>"; };
 		989117671DC7213A0037CA11 /* YYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
 		989117681DC7213A0037CA11 /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
+		98E929A41DE7E14E00630CBD /* NSString+ZZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZZAdd.h"; sourceTree = "<group>"; };
+		98E929A51DE7E14E00630CBD /* NSString+ZZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZZAdd.m"; sourceTree = "<group>"; };
+		98E929A71DE7E28D00630CBD /* NSData+ZZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ZZAdd.h"; sourceTree = "<group>"; };
+		98E929A81DE7E28D00630CBD /* NSData+ZZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ZZAdd.m"; sourceTree = "<group>"; };
+		98E929AA1DE7E6A800630CBD /* NSNumber+ZZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+ZZAdd.h"; sourceTree = "<group>"; };
+		98E929AB1DE7E6A800630CBD /* NSNumber+ZZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+ZZAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,6 +319,8 @@
 				986ADEA31DC1A61C00098F2A /* Category */,
 				986ADE5F1DC19A8A00098F2A /* AppDelegate.h */,
 				986ADE601DC19A8A00098F2A /* AppDelegate.m */,
+				9802A8811DD2D4F90035FC58 /* AppDelegate+ZZAdd.h */,
+				9802A8821DD2D4F90035FC58 /* AppDelegate+ZZAdd.m */,
 				986ADE621DC19A8A00098F2A /* ViewController.h */,
 				986ADE631DC19A8A00098F2A /* ViewController.m */,
 				986ADE651DC19A8A00098F2A /* Main.storyboard */,
@@ -352,6 +366,12 @@
 			children = (
 				986ADEA41DC1A62B00098F2A /* UIView+ZZAdd.h */,
 				986ADEA51DC1A62B00098F2A /* UIView+ZZAdd.m */,
+				98E929A41DE7E14E00630CBD /* NSString+ZZAdd.h */,
+				98E929A51DE7E14E00630CBD /* NSString+ZZAdd.m */,
+				98E929A71DE7E28D00630CBD /* NSData+ZZAdd.h */,
+				98E929A81DE7E28D00630CBD /* NSData+ZZAdd.m */,
+				98E929AA1DE7E6A800630CBD /* NSNumber+ZZAdd.h */,
+				98E929AB1DE7E6A800630CBD /* NSNumber+ZZAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -698,6 +718,7 @@
 				988707681DCAE722000839BE /* UIView+WebCacheOperation.m in Sources */,
 				986ADE611DC19A8A00098F2A /* AppDelegate.m in Sources */,
 				986ADEFB1DC1D1F100098F2A /* YTKBatchRequestAgent.m in Sources */,
+				98E929A61DE7E14E00630CBD /* NSString+ZZAdd.m in Sources */,
 				9891176D1DC7213A0037CA11 /* YYTextKeyboardManager.m in Sources */,
 				986ADF001DC1D1F100098F2A /* YTKNetworkPrivate.m in Sources */,
 				9891176F1DC7213A0037CA11 /* YYTextLine.m in Sources */,
@@ -714,6 +735,7 @@
 				989117771DC7213A0037CA11 /* NSAttributedString+YYText.m in Sources */,
 				9891177A1DC7213A0037CA11 /* UIView+YYText.m in Sources */,
 				988707611DCAE722000839BE /* UIButton+WebCache.m in Sources */,
+				9802A8831DD2D4F90035FC58 /* AppDelegate+ZZAdd.m in Sources */,
 				9887075E1DCAE722000839BE /* SDWebImageDownloaderOperation.m in Sources */,
 				986ADF101DC1D9AF00098F2A /* AFHTTPSessionManager.m in Sources */,
 				988707561DCAE722000839BE /* MKAnnotationView+WebCache.m in Sources */,
@@ -733,6 +755,7 @@
 				989117741DC7213A0037CA11 /* YYTextParser.m in Sources */,
 				986ADEFD1DC1D1F100098F2A /* YTKChainRequestAgent.m in Sources */,
 				9887075C1DCAE722000839BE /* SDWebImageDecoder.m in Sources */,
+				98E929A91DE7E28D00630CBD /* NSData+ZZAdd.m in Sources */,
 				989117801DC7213A0037CA11 /* YYTextView.m in Sources */,
 				988707661DCAE722000839BE /* UIImageView+WebCache.m in Sources */,
 				989117721DC7213A0037CA11 /* YYTextArchiver.m in Sources */,
@@ -749,6 +772,7 @@
 				988707631DCAE722000839BE /* UIImage+MultiFormat.m in Sources */,
 				988707651DCAE722000839BE /* UIImageView+HighlightedWebCache.m in Sources */,
 				9891177D1DC7213A0037CA11 /* YYTextUtilities.m in Sources */,
+				98E929AC1DE7E6A800630CBD /* NSNumber+ZZAdd.m in Sources */,
 				988707591DCAE722000839BE /* SDImageCache.m in Sources */,
 				989117691DC7213A0037CA11 /* YYTextContainerView.m in Sources */,
 				986ADE5E1DC19A8A00098F2A /* main.m in Sources */,
